@@ -15,9 +15,9 @@ bool timer_0_callback(repeating_timer_t *rt) {
 }
 
 void btn_callback(uint gpio, uint32_t events) {
-    if (events == 0x4) { // fall edge
+    if (events == 0x4) { 
         flag_f_r = 1;
-    } else if (events == 0x8) { // rise edge
+    } else if (events == 0x8) { 
     }
 }
 
